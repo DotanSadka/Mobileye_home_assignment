@@ -1,7 +1,7 @@
 """
 AV Production Analysis Test - Dotan Sadka
 
-This script reads a hex dump log file, extracts and unescapes packets, validates frame checksums (FCS),
+This script reads a hex dump log file, extracts and unescapes packets, validates frame check sequence (FCS),
 extracts speed data from packet contents, saves results to CSV files, and plots the speed over frames.
 
 Please make sure that Parser 2.3 1.txt is in the same folder so it can read it properly
